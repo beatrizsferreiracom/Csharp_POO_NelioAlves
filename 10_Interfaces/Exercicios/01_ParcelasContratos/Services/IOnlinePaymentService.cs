@@ -1,0 +1,10 @@
+﻿using System;
+
+namespace ParcelasContratos.Services
+{
+    internal interface IOnlinePaymentService
+    {
+        double PaymentFee(double amount);
+        double Interest(double amount, int months);
+    }
+}
